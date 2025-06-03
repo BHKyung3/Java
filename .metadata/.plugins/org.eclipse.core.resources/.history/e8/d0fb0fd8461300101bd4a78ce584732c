@@ -1,0 +1,9 @@
+package test_실습;
+
+public class SaleTV extends TV {
+	
+	private int price;
+	
+	
+
+}

@@ -1,0 +1,27 @@
+package test_실습;
+
+public class RentalTV extends TV {
+	
+	private int price;
+	
+	RentalTV () {}
+	
+	RentalTV (String model, int size, int channel, int price) {
+		super(model, size, channel);
+		this.price = price;
+	}
+	
+	public void play () {
+		
+	}
+	
+	public void rent () {
+		
+	}
+	
+	public String toString () {
+		return null;
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package test_실습;
+
+public class TV {
+	
+	private String model;
+	private int size;
+	private int channel;
+	
+	TV () {}
+	
+	TV(String model, int size, int channel) {
+		this.model = model;
+		this.size = size;
+		this.channel = channel;
+		
+	}
+	
+
+}

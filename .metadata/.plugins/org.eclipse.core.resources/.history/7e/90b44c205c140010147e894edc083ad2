@@ -1,0 +1,39 @@
+package test_실습;
+
+public class TV {
+	
+	private String model;
+	private int size;
+	private int channel;
+	
+	public int getchannel() {
+		return channel;
+	}
+	
+	public TV () {}
+	
+	public TV(String model, int size, int channel) {
+		this.model = model;
+		this.size = size;
+		this.channel = channel;
+	}
+	
+	public void channelUp() {
+		// channel = channel > 10 ? 1 : channel++; > 아래와 같이 삼항연산자로 표현 가능
+		
+		channel++;
+		if(channel > 10) {
+			channel = 1;
+		}
+	}
+	
+	public void channelDown() {
+		// channel = channel < 1 ? 10 : channel--; > 아래와 같이 삼항연산자로 표현 가능
+		
+		channel--;
+		if(channel < 1) {
+			channel = 10;
+		}
+	}
+
+}

@@ -1,0 +1,27 @@
+package test_실습;
+
+public class SaleTV extends TV {
+	
+	private int price;
+	
+	SaleTV () {}
+	
+	SaleTV (String model, int size, int channel, int price) {
+		super(model, size, channel);
+		this.price = price;
+	}
+	
+	public void play () {
+		System.out.println("판매 TV 채널" + channel + "번의 프로를 플레이 합니다.");
+	}
+	
+	public void sale () {
+		
+	}
+	
+	public String toString () {
+		return null;
+		
+	}
+
+}

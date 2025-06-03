@@ -1,0 +1,11 @@
+package test_실습;
+
+public class TVTest {
+
+	public static void main(String[] args) {
+
+		SaleTV saletv = new SaleTV();
+		RentalTV rentaltv = new RentalTV();
+	}
+
+}

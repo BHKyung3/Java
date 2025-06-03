@@ -1,0 +1,26 @@
+package test_실습;
+
+public class TVTest {
+
+	public static void main(String[] args) {
+		
+//		SaleTV, RentalTV 클래스의 객체를 각각 생성한다. 
+		SaleTV saletv = new SaleTV("SALETV-1", 40, 1, 300000);
+		RentalTV rentaltv = new RentalTV("RENTALTV-10 ", 42, 1, 100000);
+		
+//		SaleTV 객체는 채널을 두 개 높인다.
+		saletv.channelUp();
+		saletv.channelUp();
+		
+//		RentalTV 객체는 채널을 세 개 내린다. 
+		rentaltv.channelDown();
+		rentaltv.channelDown();
+		rentaltv.channelDown();
+		
+//		각 객체에 대하여 printAllTV()을 호출한다. 
+//		Rentable 타입의 객체인 RentalTV 객체는 printRentalTV() 를 호출한다.
+		
+		
+	}
+
+}

@@ -1,0 +1,41 @@
+package test_실습;
+
+public class TV {
+	
+	private String model;
+	private int size;
+	private int channel;
+	
+	public TV () {}
+	
+	public TV(String model, int size, int channel) {
+		this.model = model;
+		this.size = size;
+		this.setChannel(channel);
+	}
+	
+	public void channelUp() {
+		setChannel(getChannel() + 1);
+		
+		if(getChannel() > 10) {
+			setChannel(1);
+		}
+	}
+	
+	public void channelDown() {
+		setChannel(getChannel() - 1);
+		
+		if(getChannel() < 1) {
+			setChannel(10);
+		}
+	}
+
+	public int getChannel() {
+		return channel;
+	}
+
+	public void setChannel(int channel) {
+		this.channel = channel;
+	}
+
+}

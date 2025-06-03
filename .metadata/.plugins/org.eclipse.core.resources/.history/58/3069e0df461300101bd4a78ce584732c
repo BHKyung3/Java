@@ -1,0 +1,26 @@
+package test_실습;
+
+public class SaleTV extends TV {
+	
+	private int price;
+	
+	SaleTV () {}
+	
+	SaleTV (String model, int size, int channel, int price) {
+		super(model, size, channel);
+		this.price = price;
+	}
+	
+	void play () {
+		
+	}
+	
+	void sale () {
+		
+	}
+	
+	void String toString () {
+		
+	}
+
+}
